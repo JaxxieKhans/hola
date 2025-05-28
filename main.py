@@ -8,4 +8,10 @@ while True:
     opcion = int(input("Ingrese la opcion 1/2: "))
 
     if opcion == 1:
-        
+        nota = int(input("Ingrese la cantidad de notas: "))
+        for i in range(nota):
+            cal = int(input(f"Ingrese la nota {i+1}"))
+            notas.append(cal)
+            
+            print(notas)
+            continue
