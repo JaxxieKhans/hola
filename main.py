@@ -12,6 +12,10 @@ while True:
         for i in range(nota):
             cal = int(input(f"Ingrese la nota {i+1}"))
             notas.append(cal)
-            
+
             print(notas)
             continue
+    
+    if opcion == 2:
+        print("Calculo de Promedios")
+        prom = sum(notas)/len(notas)
