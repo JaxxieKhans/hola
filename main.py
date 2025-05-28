@@ -1,3 +1,2 @@
-import os
+notas = []
 
-print("Esto es mi primer GIT")
