@@ -16,7 +16,10 @@ while True:
     
     if opcion == 2:
         print("Calculo de Promedios")
-        
+
         prom = sum(notas)/len(notas)
 
         print(f"El promedio de notas es: {prom}")
+    
+    else:
+        print("Seleccione entre una de las opciones disponible por favor.")
